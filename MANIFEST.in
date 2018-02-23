@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include rekap_transaksi *.css
+recursive-include rekap_transaksi *.csv
+recursive-include rekap_transaksi *.html
+recursive-include rekap_transaksi *.ico
+recursive-include rekap_transaksi *.js
+recursive-include rekap_transaksi *.json
+recursive-include rekap_transaksi *.md
+recursive-include rekap_transaksi *.png
+recursive-include rekap_transaksi *.py
+recursive-include rekap_transaksi *.svg
+recursive-include rekap_transaksi *.txt
+recursive-exclude rekap_transaksi *.pyc
