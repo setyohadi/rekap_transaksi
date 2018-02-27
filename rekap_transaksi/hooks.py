@@ -49,7 +49,7 @@ app_license = "jasaweb"
 # ----------
 
 # automatically create page for each record of this doctype
-# website_generators = ["Web Page"]
+website_generators = ["Web Page","Rekap Transaksi Penjualan"]
 
 # Installation
 # ------------
@@ -119,4 +119,3 @@ app_license = "jasaweb"
 # override_whitelisted_methods = {
 # 	"frappe.desk.doctype.event.event.get_events": "rekap_transaksi.event.get_events"
 # }
-

@@ -1,0 +1,10 @@
+<div>
+	<a href="/rekap-transaksi-penjualan?name={{ doc.name | urlencode }}" class="no-decoration">
+		<div class="row">
+				<div class="col-xs-4"> {{ _(doc.name) }} </div>
+        <div class="col-xs-4"> {{ _(doc.customer) }} </div>
+				<div class="col-xs-4"> {{ doc.posting_date }} </div>
+		</div>
+	</a>
+</div>
+<!-- this is a sample default list template -->
