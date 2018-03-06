@@ -1,0 +1,14 @@
+<div>
+	<a href="/rekap-transaksi-surat-jalan-toko?name={{ doc.name | urlencode }}" class="no-decoration">
+		<div class="row">
+				<div class="col-xs-4">
+					<span class="indicator {{ "red" if doc.docstatus==0 else "blue" if doc.docstatus==1 else "green" if doc.address_type==2 else "darkgrey" }}">
+						{{ _(doc.name) }}
+					</span>
+				</div>
+        <div class="col-xs-4"> {{ _(doc.customer) }} </div>
+				<div class="col-xs-4"> {{ doc.posting_date }} </div>
+		</div>
+	</a>
+</div>
+<!-- this is a sample default list template -->
